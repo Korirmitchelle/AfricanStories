@@ -2,11 +2,13 @@ h1 {
  font-family: 'Dancing Script', Georgia, Times, serif;
  font-size: 59px;
  line-height: 60px;
+color: blue;
 }
  
-p {
+body,{
  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
  font-size: 18px;
  line-height: 25px;
  margin-top: 15px;
+    background-color: darkgray;
 }
