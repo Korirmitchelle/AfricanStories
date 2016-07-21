@@ -1,3 +1,6 @@
+* {
+    width: 100%;
+}
 h1 {
     font-family: 'Lobster', Georgia, Times, serif;
     font-size: 70px;
@@ -12,12 +15,12 @@ body {
     background-color: #333;
     color: yellow;
 }
-.row {
-    margin: %;
-    padding: 1%;
+.container {
+    padding: 2px;
 }
 .row img {
     height: 250px;
+    padding: 2%;
     width: 300px;
     opacity: 7;
     -webkit-transition: all 0.5s ease;
@@ -29,7 +32,8 @@ body {
 .one,
 .two,
 .three {
-    width: 30.83;
+    width: 30.83%;
+    padding: 1%;
     float: left;
 }
 .row img:hover {
@@ -39,18 +43,4 @@ body {
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
-}
-@media (max-width:400) {
-    .row img {
-        display: block;
-        margin: 0 0 5px;
-    }
-    ul.rig {
-        margin-left: 0;
-    }
-    .row img {
-        width: 100% !important;
-        /* over-ride all li styles */
-        margin: 0 0 20px;
-    }
 }
