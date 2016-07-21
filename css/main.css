@@ -1,13 +1,20 @@
-
 h1 {
- font-family: 'Lobster', Georgia, Times, serif;
- font-size: 70px;
- line-height: 100px;
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 70px;
+    line-height: 100px;
 }
- 
 body {
- font-family: 'Cabin', Helvetica, Arial, sans-serif;
- font-size: 15px;
- line-height: 25px;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
 }
-
+.row img {
+    height: 300px;
+    width: 300px;
+}
+.one,
+.two,
+.three {
+    width: 33%;
+    float: left;
+}
