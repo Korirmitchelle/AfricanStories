@@ -5,12 +5,19 @@ h1 {
 }
 body {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 25px;
+    font-style: italic;
     width: 100%;
+    background-color: #333;
+    color: yellow;
+}
+.row {
+    margin: %;
+    padding: 1%;
 }
 .row img {
-    height: 300px;
+    height: 250px;
     width: 300px;
     opacity: 7;
     -webkit-transition: all 0.5s ease;
@@ -22,7 +29,7 @@ body {
 .one,
 .two,
 .three {
-    width: 33%;
+    width: 30.83;
     float: left;
 }
 .row img:hover {
@@ -32,4 +39,18 @@ body {
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
+}
+@media (max-width:400) {
+    .row img {
+        display: block;
+        margin: 0 0 5px;
+    }
+    ul.rig {
+        margin-left: 0;
+    }
+    .row img {
+        width: 100% !important;
+        /* over-ride all li styles */
+        margin: 0 0 20px;
+    }
 }
